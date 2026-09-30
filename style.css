@@ -1,0 +1,371 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.navbar {
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+}
+
+
+
+.icon {
+    width: 180px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+/* MENU */
+
+.menu {
+    flex: 1;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    list-style: none;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    color: #ff7200;
+}
+
+
+
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.srch {
+    width: 180px;
+    height: 40px;
+
+    background: transparent;
+    border: 1px solid #ff7200;
+    border-right: none;
+
+    padding: 10px;
+    color: white;
+    outline: none;
+
+    font-size: 14px;
+}
+
+.srch::placeholder {
+    color: #ccc;
+}
+
+.btn {
+    width: 90px;
+    height: 40px;
+
+    background: #ff7200;
+    border: 1px solid #ff7200;
+
+    color: white;
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+    color: #ff7200;
+}
+
+
+
+.content {
+    width: 1200px;
+    margin: auto;
+
+    position: relative;
+    min-height: 600px;
+
+    color: white;
+}
+
+
+
+.content h1 {
+    padding-top: 100px;
+    padding-left: 20px;
+
+    font-family: "Times New Roman", serif;
+
+    font-size: 50px;
+    line-height: 1.15;
+
+    letter-spacing: 2px;
+}
+
+.content h1 span {
+    color: #ff7200;
+    font-size: 60px;
+}
+
+
+
+
+.par {
+    padding-left: 20px;
+    margin-top: 20px;
+
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 1px;
+
+    color: #ddd;
+}
+
+
+
+
+.cn {
+    margin-left: 20px;
+    margin-top: 20px;
+
+    width: 150px;
+    height: 45px;
+
+    background: #ff7200;
+    border: 2px solid #ff7200;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.cn a {
+    color: black;
+    text-decoration: none;
+
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.cn:hover {
+    background: white;
+    border-color: white;
+}
+
+
+
+
+.form {
+    width: 300px;
+    min-height: 420px;
+
+    position: absolute;
+
+    top: 50px;
+    right: 20px;
+
+    padding: 25px;
+
+    background: rgba(0, 0, 0, 0.85);
+
+    border: 1px solid rgba(255, 114, 0, 0.5);
+
+    border-radius: 12px;
+
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.form h2 {
+    width: 100%;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    color: #ff7200;
+
+    background: white;
+
+    border-radius: 8px;
+
+    font-size: 22px;
+}
+
+
+
+
+.form input {
+    width: 100%;
+    height: 40px;
+
+    margin-top: 20px;
+
+    background: transparent;
+
+    border: none;
+    border-bottom: 1px solid #ff7200;
+
+    outline: none;
+
+    color: white;
+
+    font-size: 15px;
+}
+
+.form input::placeholder {
+    color: #aaa;
+}
+
+
+
+
+.btnn {
+    width: 100%;
+    height: 42px;
+
+    margin-top: 25px;
+
+    background: #ff7200;
+    border: 2px solid #ff7200;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.btnn a {
+    color: black;
+    text-decoration: none;
+
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btnn:hover {
+    background: white;
+    border-color: white;
+}
+
+
+
+
+.link {
+    text-align: center;
+
+    margin-top: 18px;
+
+    font-size: 14px;
+
+    line-height: 22px;
+
+    color: white;
+}
+
+.link a {
+    color: #ff7200;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: 0.3s;
+}
+
+.link a:hover {
+    color: white;
+}
+
+
+
+
+.liw {
+    text-align: center;
+
+    margin-top: 18px;
+
+    font-size: 14px;
+
+    color: #ddd;
+}
+
+
+
+
+.icons {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+
+    margin-top: 12px;
+}
+
+.icons a {
+    color: white;
+
+    font-size: 24px;
+
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.icons a:hover {
+    color: #ff7200;
+
+    transform: translateY(-3px);
+}
+
